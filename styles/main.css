@@ -1,0 +1,44 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+  background-image: radial-gradient(purple,#000);
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.text {
+  padding: 1rem;
+  margin: auto;
+  max-width: 500px;
+  align-items: center;
+}
+
+header {
+  margin: 0px;
+  letter-spacing: 2px;
+  font-family: 'Avenir';
+  font-size: 160%;
+  font-stretch: expanded;
+  justify-content: space-between;
+  text-align: center;
+}
+
+footer {
+    margin: 5rem;
+    padding: 1rem;
+
+a { 
+    color: #grey;
+}
